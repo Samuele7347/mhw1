@@ -1,0 +1,323 @@
+#sezione_principale{
+  background-color:mediumslateblue;
+  height: 380px;
+}
+
+#image {
+  display: inline-block;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a{
+  color:white;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 5px;
+}
+
+.link {
+  color:black;
+  font-weight: normal;
+  font-family: Georgia;
+  font-size: 25px;
+}
+
+.link2{
+  font-size: 18px;
+  color: black;
+}
+
+#link_section_nav{
+  display: inline-block;
+}
+
+#button1 {
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#button2{
+  background-color:blue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+}
+
+#offerta_principale{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 300px;
+  margin-right: 300px;
+  align-items: center;
+  gap: 20px;
+}
+
+#offerta1 {
+  text-align: center;
+}
+
+#offerta1 a{
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#blocco1offertaprincipale{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#title_1 {
+  color:white;
+  font-family: impact;
+  font-size: 40px;
+}
+
+#title_2 {
+  color:white;
+  font-weight: normal;
+  font-family: Myriad Pro;
+  font-size: 35px;
+}
+
+.h_offerta {
+  margin: 0;
+}
+
+#riquadro_offerta {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+}
+
+#elencazione_offerta{
+  display: flex;
+  flex-direction: column;
+}
+
+#cont_100giga {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+#numero_100 {
+  color: blue;
+  font-weight: bold;
+  font-family: Arial;
+  font-size: 45px;
+}
+
+#giga {
+  font-weight: normal;
+  font-family: Georgia;
+  font-size: 40px;
+}
+
+#Minutiesms {
+  font-weight: normal;
+  font-family: Georgia;
+  font-size: 25px;
+}
+
+#prezzo {
+  color: blue;
+  font-weight: bold;
+  font-size: 60px;
+}
+
+#offertaeattivazione{
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+  background-color: white;
+  border-radius: 15%;
+  padding: 25px;
+}
+
+#costo2e99{
+  color:blue;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+#alcuni_operatori{
+  font-weight: normal;
+  font-family: Georgia;
+  font-size: 25px;
+  text-decoration: underline;
+}
+
+#offerte_in_evidenza {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 200px;
+  margin-right: 130px;
+}
+
+#testo_minuti {
+  font-weight: normal;
+  font-family: Georgia;
+  font-size: 20px;
+}
+
+#prezzo_evidenza {
+  font-weight: bold;
+  color: blue;
+  font-size: 40px;
+}
+
+#prezzo9e99almese {
+  text-align: center;
+}
+
+#a200giga {
+  text-align: center;
+}
+
+#testo_attivazione_prezzo{
+  color:blue;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+#attivazione {
+  font-size: 18px;
+}
+
+#testo_attivazione_operatori{
+  text-decoration: underline;
+}
+
+#offerta_1_evidenza{
+  border: 3px solid red;
+  border-radius: 10%;
+  padding: 20px;
+  width: 260px;
+  
+}
+
+#offerta_2_evidenza{
+  border: 3px solid gray;
+  border-radius: 10%;
+  padding: 20px;
+  width: 260px;
+}
+
+#tutte_offerte{
+  text-align: center;
+  margin-top: 80px;
+}
+
+#a_offerte {
+  display: inline-block;
+  font-size: 30px;
+  color: blue;
+}
+
+#blocco_feature{
+  display: flex;
+  max-width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+#feature1{
+  background-color: red;
+  padding: 20px;
+  border-radius: 8%;
+}
+
+#blocco_feature p{
+  font-size:28px;
+  font-family: arial;
+  text-align: center;
+  color: white;
+}
+
+#text1_feature{
+  font-size:35px;
+  font-family: Arial Black;
+  font-weight: bold;
+  color: white;
+}
+
+#text2_feature{
+  font-weight: bold;
+}
+
+#feature2{
+  background-color: blue;
+  padding: 20px;
+  border-radius: 8%;
+}
+
+#link_feature{
+  color: white;
+  text-align: center;
+}
+
+#footer_el_1{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.link_footer_1{
+  display: inline-block;
+  margin-top: 5%;
+  color:black;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 140%;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#footer_el_2{
+  margin-top: 3%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+#footer_el_2 img{
+  margin-right: 3%;
+}
+
+#copyright{
+  color:gray;
+  font-size: smaller;
+}
+
+#footer_el_2 span{
+  font-weight: bold;
+}
+
+footer{
+  background-color:ghostwhite;
+}
